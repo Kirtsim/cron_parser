@@ -12,7 +12,7 @@ The script, `cron.py`, is executed with the following command:
 
     python3 cron.py "<cron-string>",
 
-where `cron-string` consists of exactly 5 parts in the following order:
+where `cron-string` consists of exactly 5 parts (enclosed by `""`) in the following order:
 
 `"minute hour day-of-month month day-of-week command"`.
 
