@@ -23,3 +23,10 @@ where `cron-string` consists of exactly 5 parts (enclosed by `""`) in the follow
 
 _Refer to this [link](https://www.ibm.com/docs/en/db2oc?topic=task-unix-cron-format) for
 more information about the standard cron format._
+
+
+#### Running unit-tests
+From the project's root folder execute the following:
+
+    python3 -m unittest tests/test*
+
